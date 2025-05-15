@@ -24,6 +24,10 @@ body{
     width: 50%;
 }
 
+.container .about-me p{
+          text-align: center !important;
+          width: 100%;
+}
 .container .about-me h2{
             margin: 0;
           border-bottom: 1px solid white;
