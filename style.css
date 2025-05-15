@@ -1,0 +1,72 @@
+
+
+body{
+    background-color: rgb(58, 93, 121);
+    color: white;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+
+
+
+.container .section{
+            display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 50%;
+}
+
+.container .about-me h2{
+            margin: 0;
+          border-bottom: 1px solid white;
+          text-align: center;
+          font-size: 3rem;
+}
+
+.container .subtitle{
+    margin: 0;
+    border-bottom: 1px solid white;
+    text-align: left;
+    width: 100%;
+    font-size: 1.5rem;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    
+}
+.container .section h4{
+    margin: 0;
+    text-align: left;
+    width: 100%;
+    
+}
+.container .section p{
+    margin: 3px;
+    text-align: left;
+    width: 100%;
+    
+}
+.container .section .exp{
+    margin: 5px;
+    text-align: left;
+    width: 100%;
+    
+}
+
+.container .section .exp .title-exp{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+.container .section .exp .title-exp h4:last-child{
+    text-align: right;
+
+}
